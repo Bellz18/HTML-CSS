@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        h1 {
+            height: 300px;
+            width: 300px;
+            background-color: rgba(153, 248, 204, 0.479);
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkred;
+            /*border: 10px solid darkred, simplificação do border*/
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            /*padding 10px 10px 10px 10px; simplificação do padding, caso todas as medididas forem as mesmas basta colocar 1 vez*/ 
+           /* margin: auto; Serve para a centralização da caixa*/
+            margin-top: 10px;
+            margin-right: auto;
+            margin-bottom: 10px;
+            margin-left: auto;
+            /*margin: 10px auto 10px auto;*/
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: chartreuse;
+            /*outline 5px dashed (cor)*/
+        }
+        a{
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkred;  
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            padding-right: 10px;
+             }
+    </style>
+</head>
+
+<body>
+    <h1>Exemplo de caixa box-level</h1> /* Geralmente (quase sempre) se usa box-level*/
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links</a> são exemplos de caixas inlinie-level</p>
+
+</body>
+
+</html>
